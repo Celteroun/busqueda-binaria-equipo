@@ -18,5 +18,16 @@ def busqueda_binaria_validada(lista, objetivo):
         else:
             fin = medio - 1
 
+    return -1
 
-    return -1
+
+# --- PRUEBA DE EJECUCIÓN ---
+if __name__ == "__main__":
+    lista = [1, 3, 5, 7, 9, 11, 15]
+    objetivo = 7
+
+    resultado = busqueda_binaria_validada(lista, objetivo)
+    print("Resultado de la búsqueda:", resultado)
+
+
+
