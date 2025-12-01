@@ -1,14 +1,3 @@
-✅ 3. Versión 3 — “busqueda_binaria_validada.py”
-Descripción:
-
-Versión con validaciones adicionales:
-
-Verifica si la lista está ordenada
-
-Maneja lista vacía
-
-Maneja datos incorrectos
-
 def busqueda_binaria_validada(lista, objetivo):
     if not lista:
         return -1
@@ -29,4 +18,5 @@ def busqueda_binaria_validada(lista, objetivo):
         else:
             fin = medio - 1
 
-    return -1*
+
+    return -1
